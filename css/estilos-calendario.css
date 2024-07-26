@@ -1,0 +1,70 @@
+#calendar {
+    width: 83%; /* Ajusta el ancho del contenedor según tu preferencia */
+    margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
+    padding-bottom: 50px;
+}
+
+/* Estilos para el encabezado del calendario */
+.fc-toolbar {
+    background-color: #4d0686;
+    border-bottom: 1px solid #ccc;
+    color: white;
+  }
+  
+  /* Estilos para los días de la semana */
+  .fc-day-header {
+    background-color: #4d0686;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Estilos para las celdas de los días */
+  .fc-day {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos para los eventos en el calendario */
+  .fc-event {
+    background-color: #09BCD9;
+    color: #fff;
+    border: 1px solid #09BCD9;
+  }
+  
+  /* Estilos para los eventos cuando se les pasa el mouse por encima */
+  .fc-event:hover {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+  }
+  
+  /* Estilos para el día actual en el calendario */
+  .fc-day.fc-today {
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos para el título del evento */
+  .fc-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para la ventana emergente del evento */
+  .fc-popover {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  /* Estilos para los botones dentro de la ventana emergente del evento */
+  .fc-popover .fc-button {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  /* Estilos para los botones cuando se les pasa el mouse por encima */
+  .fc-popover .fc-button:hover {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+  }

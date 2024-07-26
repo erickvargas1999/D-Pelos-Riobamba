@@ -1,0 +1,33 @@
+
+.menu-item {
+    display: inline-block;
+    position: relative; /* Para que el contenido del desplegable esté relativo a este elemento */
+}
+/* Estilos para el desplegable */
+.dropdown-content {
+    display: none; /* Inicialmente ocultamos las opciones del desplegable */
+    position: absolute;
+    top: 30px; /* Ajusta la distancia vertical del desplegable desde el menú */
+    right: 0;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Mostramos las opciones del desplegable cuando el usuario coloca el puntero sobre el enlace */
+.menu-item:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilo para las opciones del desplegable */
+.dropdown-content a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}

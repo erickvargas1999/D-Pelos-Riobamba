@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+
+div center a{
+   padding: 10px 20px; 
+   color: white;
+   /*background-color:rgb(99, 64, 131);*/
+   background-color: #4d0686;
+   text-align: center;
+   text-decoration: none;
+   width: 30px;
+   border-radius: 5px;
+}
+
+ div center a:hover{
+
+    background-color: #c24784;
+}
